@@ -1,6 +1,51 @@
+* {
+    font-family: Microsoft YaHei;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 50px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 1px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    transition: 0.6s   ;
+    border: 1px white transparent;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li a:active {
+    background-color: white;
+    color: black;
+}
+
 header {
-    padding: 1478px 893px;
-    background-image: url(../img/header3.jpg);
+    background-color: grey;
+    padding: 25px;
+}
+
+.logo img{
+    float: left;
+    width: 400px;
+    height: auto;
 }
 
 footer {
